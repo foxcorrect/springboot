@@ -1,0 +1,26 @@
+2018-09-19 16:12:11 [restartedMain] INFO  c.h.blog.SpringBootBlogApplication : 
+ Starting SpringBootBlogApplication on guyaweideMacBook-Air.local with PID 6892 (/Users/guyawei/code/testspring/springboot/spring-boot-blog/target/classes started by guyawei in /Users/guyawei/code/testspring/springboot) 
+2018-09-19 16:12:11 [restartedMain] DEBUG c.h.blog.SpringBootBlogApplication : 
+ Running with Spring Boot v1.4.3.RELEASE, Spring v4.3.5.RELEASE 
+2018-09-19 16:12:11 [restartedMain] INFO  c.h.blog.SpringBootBlogApplication : 
+ No active profile set, falling back to default profiles: default 
+2018-09-19 16:12:16 [restartedMain] INFO  c.h.blog.SpringBootBlogApplication : 
+ Started SpringBootBlogApplication in 6.175 seconds (JVM running for 7.812) 
+2018-09-19 16:12:20 [http-nio-8080-exec-1] DEBUG c.h.blog.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=?  
+2018-09-19 16:12:20 [http-nio-8080-exec-1] DEBUG c.h.blog.mapper.UserMapper.findOne : 
+ ==> Parameters: gyw2(String) 
+2018-09-19 16:12:20 [http-nio-8080-exec-1] DEBUG c.h.blog.mapper.UserMapper.findOne : 
+ <==      Total: 0 
+2018-09-19 16:12:20 [http-nio-8080-exec-1] DEBUG com.hpm.blog.mapper.UserMapper.add : 
+ ==>  Preparing: insert into user(name, password) values (?,?)  
+2018-09-19 16:12:20 [http-nio-8080-exec-1] DEBUG com.hpm.blog.mapper.UserMapper.add : 
+ ==> Parameters: gyw2(String), 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92(String) 
+2018-09-19 16:12:20 [http-nio-8080-exec-1] DEBUG com.hpm.blog.mapper.UserMapper.add : 
+ <==    Updates: 1 
+2018-09-19 16:12:20 [http-nio-8080-exec-1] DEBUG c.h.blog.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=?  
+2018-09-19 16:12:20 [http-nio-8080-exec-1] DEBUG c.h.blog.mapper.UserMapper.findOne : 
+ ==> Parameters: 2(Integer) 
+2018-09-19 16:12:20 [http-nio-8080-exec-1] DEBUG c.h.blog.mapper.UserMapper.findOne : 
+ <==      Total: 1 
